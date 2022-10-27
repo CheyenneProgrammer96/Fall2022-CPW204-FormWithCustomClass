@@ -1,5 +1,6 @@
 input[type=text]{
     padding: .4em;
+    font-family: 'Indie Flower', cursive;
 }
 
 label{
@@ -10,4 +11,11 @@ label{
 
 input[type=checkbox],input[type=button]{
     margin-left: 50;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+input[type=button]{
+    font-family: 'Indie Flower', cursive;
 }
