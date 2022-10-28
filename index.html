@@ -11,8 +11,10 @@
 <body>
     <h1>Add Video Game</h1>
 
-    <div id="validation-summary">
-        <p>Errors go here...</p>
+    <div>
+        <ul id="validation-summary">
+
+        </ul>
     </div>
     
     <form> 
@@ -27,10 +29,10 @@
 
         <label for="rating">Rating:</label>
         <select id="rating">
-            <option>Please choose a rating</option>
-            <option>E</option>
-            <option>T</option>
-            <option>M</option>
+            <option value="">Please choose a rating</option>
+            <option value="E">E-Everyone</option>
+            <option value="T">T-Teen</option>
+            <option value="M">M-Mature</option>
         </select>
         <br>
 
@@ -42,7 +44,7 @@
     </form>
     
     <div id="display">
-        
+
     </div>
 
     <script src="js/main.js"></script>
