@@ -82,7 +82,7 @@ function isAllDataValid() {
         addErrorMessage("Price is required and must be a number!");
     }
     var rating = getById("rating").value;
-    if (rating == "Please choose a rating") {
+    if (rating == "") {
         isValid = false;
         addErrorMsgWithCustomClass("You must choose a rating!", "rating-error");
     }
